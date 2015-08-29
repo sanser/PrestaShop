@@ -2,6 +2,7 @@
 
 /**
  * I see this commit
+ * Now we will see the difference
  */
 
 abstract class ObjectModelCore
