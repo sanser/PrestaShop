@@ -1,7 +1,27 @@
 <?php
+
 /**
- * Created by PhpStorm.
- * User: Sergius
- * Date: 8/27/2015
- * Time: 9:09 AM
+ * I see this commit
  */
+
+abstract class ObjectModelCore
+{
+    /**
+     * @var integer Object id
+     */
+    public $id;
+
+    /** @var string SQL Table name */
+    protected $table = NULL;
+
+    /** @var string SQL Table identifier */
+    protected $identifier = NULL;
+
+    /** @var array Required fields for admin panel forms */
+    protected $fieldsRequired = array();
+
+    /** @var fieldsRequiredDatabase */
+    protected static $fieldsRequiredDatabase = NULL;
+
+
+}
